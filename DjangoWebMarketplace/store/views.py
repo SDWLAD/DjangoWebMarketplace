@@ -6,3 +6,4 @@ from .models import MarketplaceItem
 class IndexView(ListView):
     model = MarketplaceItem
     template_name = "store/index.html"
+    context_object_name = 'items'

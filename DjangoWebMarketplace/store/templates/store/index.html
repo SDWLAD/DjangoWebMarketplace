@@ -6,4 +6,9 @@
 
 {% block body %}
     <h1>Welcome to the Store</h1>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.name }} - ${{ item.price }}</li>
+        {% endfor %}
+    </ul>
 {% endblock %}
