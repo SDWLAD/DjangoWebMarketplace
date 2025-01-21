@@ -8,8 +8,20 @@
     {% endblock %}
 </head>
 <body>
-    {% block body %}
-    {% endblock %}
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                </ul>
+            </nav>
+        </header>
+        {% block body %}
+        {% endblock %}
+    </div>
 </body>
 </html>
 
