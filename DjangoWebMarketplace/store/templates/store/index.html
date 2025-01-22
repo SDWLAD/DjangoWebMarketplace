@@ -3,14 +3,14 @@
 
 {% block head %}
     <title>Store Index</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'store/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'store/store.css' %}">
 {% endblock %}
 
 {% block body %}
     <h1>Welcome to the Store</h1>
-    <ul>
+    <ul id="popular" class="tiles-block">
         {% for item in items %}
-            <li>{{ item.name }} - ${{ item.price }}</li>
+            <li class="tile">{{ item.name }} - ${{ item.price }}</li>
         {% endfor %}
     </ul>
 {% endblock %}

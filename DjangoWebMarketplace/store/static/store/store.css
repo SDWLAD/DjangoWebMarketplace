@@ -1,0 +1,10 @@
+.tiles-block{
+    display: inline;
+    border: #77aaff 3px solid;
+}
+
+.tile{
+    display: inline;
+    background-color: #333;
+    color: #f4f4f4;
+}
