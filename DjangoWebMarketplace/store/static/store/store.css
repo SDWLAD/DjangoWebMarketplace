@@ -1,10 +1,15 @@
 .tiles-block{
-    display: inline;
     border: #77aaff 3px solid;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 .tile{
-    display: inline;
+    float: left;
+    border-right: #77ff89 3px solid;
+    border-left: #77ff89 3px solid;
     background-color: #333;
     color: #f4f4f4;
+    height: 200px;
+    width: 200px;
 }

@@ -8,9 +8,9 @@
 
 {% block body %}
     <h1>Welcome to the Store</h1>
-    <ul id="popular" class="tiles-block">
+    <div id="popular" class="tiles-block">
         {% for item in items %}
-            <li class="tile">{{ item.name }} - ${{ item.price }}</li>
+            <div class="tile">{{ item.name }} - ${{ item.price }}</div>
         {% endfor %}
-    </ul>
+    </div>
 {% endblock %}
