@@ -5,4 +5,5 @@ from .views import *
 urlpatterns = [
     path("", IndexView.as_view()),
     path('<int:pk>', ItemDetailView.as_view()),
+    path("about/", IndexView.as_view())
 ]
