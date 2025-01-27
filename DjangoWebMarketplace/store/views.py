@@ -18,3 +18,7 @@ class ItemDetailView(DetailView):
     model = MarketplaceItem
     template_name = "store/item_detail.html"
     context_object_name = 'item'
+
+
+def about_view(request):
+    return render(request, 'store/about.html')
