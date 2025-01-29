@@ -122,3 +122,19 @@ footer {
     background-color: #333;
     text-align: center;
 }
+
+
+.button{
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #555;
+}
